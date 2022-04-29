@@ -59,57 +59,92 @@
                     <option value="">Казахский</option>
                     <option value="">Английский</option>
                 </select>
-                    <div class="header__structure">
-                        <span class = "header__span"></span>
-                        <span class = "header__span" ></span>
+                    <div class="header__structure" id = "headerOpen" >
+                        <div class="header__men">
+                            <span class = "header__span"></span>
+                            <span class = "header__span" ></span>
+                        </div>
+                        <p class = "header__p">menu</p>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="intro">
-        <div class="intro__head">
-            <img src="https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="intro__img">
-            <div class="intro__item">
-                <p class = "intro__text">Не официальный сайт</p>
-                <div class="intro__title">Колледж Информационных Технологий</div>
-                <a class = "intro__button">Узнать Больше</a>
+    <div class="menu">
+        <div class="menu__filter">
+        <div class="container-max">
+            <div class="menu__inner">
+
+                <!-- header -->
+                <div class="menu__item">
+                    <div class="header__logo">
+                        <input type="search" name="" id="" class = "header__search" placeholder="Введите то что хотите найти...">
+                    </div>
+                    <div class = "header__menu">
+                    
+                        <div class="header__structure" id = "headerClose" >
+                            <div class="header__men">
+                                <span class = "header__span close__one"></span>
+                            <span class = "header__span close__two" ></span>
+                            </div>
+                            <p class = "header__p">menu</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu  blocks -->
+                <div class="menu__content">
+
+
+                    <div class="menu__block">
+                        <div href = "" class="menu__li">Новости</div>
+                        <div href = "" class="menu__li colledge--about">О КОЛЛЕДЖЕ</div>
+                        <div href = "" class="menu__li colledge--notcorruptin">ПРОТИВ КОРРУПЦИИ</div>
+                        <div href = "" class="menu__li">ИНФОРМАЦИЯ</div>
+                        <div href = "" class="menu__li">МЕТОДИЧЕСКИЙ КАБИНЕТ</div>
+                        <div href = "" class="menu__li">ПОЛИЯЗЫЧИЕ</div>
+                        <div href = "" class="menu__li">военно-патриотический клуб</div>
+                        <div href = "" class="menu__li">Воспитательные работы</div>
+                        <div href = "" class="menu__li">Общежитие</div>
+                    </div>
+
+                    <div class="menu__div">
+
+                        <!-- about colledge -->
+                        <div class="menu__parametr colledge-params--about">
+                            <a class="menu__a" href = "">Лицензия и устав</a>
+                            <a href="" class="menu__a">История</a>
+                            <a href="" class = "menu__a">Руководство</a>
+                            <a href="" class = "menu__a" >Структура</a>
+                            <a href="" class = "menu__a" >Достижения</a>
+                            <a href="" class = "menu__a" >Попечительный совет</a>
+                            <a href="" class = "menu__a" >Педагогический состав</a>
+                            <a href="" class = "menu__a" >План работы</a>
+                            <a href="" class = "menu__a" >Индустриальный совет</a>
+                            <a href="" class = "menu__a" >Стратегия</a>
+                        </div>
+
+                        <div class="menu__parametr colledge-params--notcorruptin">
+                            <a class="menu__a" href = "">"АДАЛДЫҚ АЛАҢЫ"</a>
+                            <a href="" class="menu__a">КЛУБ «САНАЛЫ ҰРПАҚ»</a>
+                            <a href="" class = "menu__a">план МЕРОПРИЯТИй</a>
+                            <a href="" class = "menu__a" >МЕРОПРИЯТИЯ</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                </div>
             </div>
-            <span class=" intro__line"></span>
+        </div>
         </div>
     </div>
 
-        <div class="content">
-            <span class="content__linear"></span>
-           <div class="content__blocks">
 
-            <!-- for students -->
-               <div class="block content__arond">
-                   <div class="block__right">
-                       <div class="block__title intro__title">Наши специальности</div>
-                       <div class="block__li">Информационные системы</div>
-                       <div class="block__li">Техническая эксплуатация, обслуживание и ремонт электромеханического оборудования.</div>
-                       <div class="block__li">Менеджмент</div>
-                       <div class="block__li">Вычислительная техника и программное обеспечение</div>
-                   </div>
-                   <div class="block__left">
-                       <p class="block__p"></p>
-                       <a class = " block__button intro__button ">Подать заявление</a>
-                   </div>
-               </div>
-
-               <div class="block block__back blox-der block-up">
-                   <h2 class="intro__title block__name">Наша цель</h2>
-                   <p class="block__title block__text">Войти в ТОП-10 лучших колледжей Республики Казахстан по рейтингу независимых агентств</p>
-               </div>
-               
-           </div>
-
-        </div>
-        
-
-
+    <!-- my js -->
     <script src = "assets/scripts/script.js" ></script>
+    <script src = "assets/scripts/header.js"></script>
 </body>
 </html>

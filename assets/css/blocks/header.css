@@ -8,7 +8,7 @@ header {
     width: 100%;
     padding: 3% 0;
     background-color: black;
-    z-index: 100000000;
+    z-index: 999;
 }
 .header__item {
     display: flex;
@@ -34,6 +34,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     width: 70%;
+    transition: all .4s linear;
 }
 .header__content a{
     color: #202020;
