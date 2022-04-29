@@ -82,7 +82,11 @@
     /* background-color: rgb(254,254,254,.2); */
     width: 100%;
     color: rgb(254,254,254,1);
-    /* text-shadow: -2px -2px 1px var(--green), 2px 2px 1px var(--orange); */
+    text-shadow: -2px -2px 1px var(--green), 2px 2px 1px var(--orange);
+}
+.norm{
+    color: rgb(254,254,254,1);
+    text-shadow: -2px -2px 1px var(--green), 2px 2px 1px var(--orange);
 }
 .close__one, .close__two {
     transition: all .4s linear;
@@ -129,6 +133,7 @@
 }
 .menu__a:hover {
     color: aliceblue;
+    text-shadow: 2px 2px 1px var(--green), -2px -2px 1px var(--orange);
 }
 .header__structure {
     padding: 5%;

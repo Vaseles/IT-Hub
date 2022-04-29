@@ -1,5 +1,6 @@
 @import "blocks/header.css";
 @import "blocks/menu.css";
+@import "blocks/intro.css";
 
 * {
     box-sizing: border-box;
@@ -18,7 +19,7 @@
 }
 
 html, body {
-    background-color: var(--black);
+    background-color: var(--back);
     color: var(--white);
     overflow-x: hidden;
     font-size: calc(var(--size)*1.6);
