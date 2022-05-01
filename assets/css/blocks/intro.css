@@ -163,18 +163,11 @@
     height: 90vh;
 }
 .intro__item {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    width: 100%;
 }
 .inro__obj {
-  
   width: 90%;
   height: 40vh;
   margin: 10% 10% 0 0;
-  
 }
 
 .intro_content {
@@ -185,9 +178,9 @@
     color: var(--orange);
 }
 .intro__title {
-  margin: 4% 0 4% 0;
-    font-size: calc(var(--size)*7);
-    line-height: calc(var(--size)*7) ;
+  margin: 4% 0 5% 0;
+    font-size: calc(var(--size)*8);
+    line-height: calc(var(--size)*9) ;
     font-weight: 700;
 }
 .intro__learn, .intro__learn::after {
@@ -195,5 +188,11 @@
     height: calc(var(--size)*8);
     font-size: calc(var(--size)*4.2);
     line-height: calc(var(--size)*8);
+  }
+  .intro_content {
+      width: 100%;
+      z-index: 100;
+      padding: 5% 0;
+      height: 30vh;
   }
 }

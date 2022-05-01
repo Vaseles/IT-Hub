@@ -13,7 +13,7 @@
 }
 .parthner__block {
     display: block;
-    margin: 1%;
+    margin:  1%;
     opacity: .5;
     cursor: pointer;
     transition: all .3s linear;
@@ -21,16 +21,16 @@
     width: 100%;
     max-width: calc(var(--size)*10);
     /* box-shadow: 2px 2px 6px  black; */
+    border-radius: 10px;
 }
 .parthner__block:hover {
     opacity: 1;
 }
 @media screen and (max-width:660px) {
     .parthner__block {
-        margin: 0 1%;
-    
+        margin: 2% 1%;
         width: 100%;
-        max-width: calc(var(--size)*20);
+        max-width: calc(var(--size)*28);
         /* box-shadow: 2px 2px 6px  black; */
     }
 }
