@@ -21,3 +21,12 @@
     font-size: calc(var(--size)*3);
     font-weight: bold;
 }
+
+@media screen and (max-width:660px)  {
+    .up__button {
+        padding: 5%;
+    }
+    .up__button a {
+        font-size: calc(var(--size)*8);
+    }
+}

@@ -33,3 +33,19 @@
 .interest__p {
     text-align: center;
 }
+@media screen and (max-width:660px) {
+    .interest__block {
+        width: calc(var(--size)*30);
+        height: calc(var(--size)*20);
+        margin: 3%;
+    }
+    .interest__num {
+        font-size: calc(var(--size)*8);
+        line-height: calc(var(--size)*7);
+    }
+    .interest__p {
+        text-align: center;
+        font-size: calc(var(--size)*3);
+        line-height: calc(var(--size)*3);
+    }
+}

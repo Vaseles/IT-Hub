@@ -79,3 +79,29 @@
     transform: translateY(5vh);
     transition: all .4s linear;
 }
+
+@media screen and (max-width:660px) {
+    .pre__description {
+        font-size: calc(var(--size)*2.7);
+        top: 20vh;
+        left: 2vh;
+        max-width: 20vh;
+        width: 100%;
+    }
+    .slider__title {
+        font-size: calc(var(--size)*6.8);
+        line-height: calc(var(--size)*5) ;
+        padding-bottom: 14%;
+    }
+    .slider__text {
+        font-size: calc(var(--size)*4.3);
+        line-height: calc(var(--size)*4) ;
+    }
+    .pre__slider {
+        height: 70vh;
+    }
+    .slider__item {
+        width: 100%;
+        height: 50vh;
+    }
+}

@@ -156,3 +156,44 @@
       transform: translate(0);
     }
   }
+
+  /* mobil and planshet version */
+@media screen and (max-width:660px) {
+  .intro {
+    height: 90vh;
+}
+.intro__item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.inro__obj {
+  
+  width: 90%;
+  height: 40vh;
+  margin: 10% 10% 0 0;
+  
+}
+
+.intro_content {
+  height: 20vh;
+}
+.intro__name {
+    font-size: calc(var(--size)*6);
+    color: var(--orange);
+}
+.intro__title {
+  margin: 4% 0 4% 0;
+    font-size: calc(var(--size)*7);
+    line-height: calc(var(--size)*7) ;
+    font-weight: 700;
+}
+.intro__learn, .intro__learn::after {
+    width: calc(var(--size)*50);
+    height: calc(var(--size)*8);
+    font-size: calc(var(--size)*4.2);
+    line-height: calc(var(--size)*8);
+  }
+}
