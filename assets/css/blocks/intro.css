@@ -45,26 +45,38 @@
     color: var(--orange);
 }
 .intro__title {
+
+  margin: 2% 0 2% 0;
+    text-align: center;
+    width: 100%;
+    font-size: calc(var(--size)*3.6);
+    line-height: calc(var(--size)*3) ;
+    font-weight: 700;
+    background: linear-gradient(45deg, var(--green), var(--orange));
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     font-size: calc(var(--size)*4);
     line-height:  calc(var(--size)*4.4);
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    margin:  2% 0 3% 0;
-    text-shadow: 3px 3px 1px var(--orange), -3px -3px 1px var(--green);
+    /* margin:  2% 0 3% 0; */
+    /* text-shadow: 3px 3px 1px var(--orange), -3px -3px 1px var(--green); */
 }
 
 
 .intro__learn, .intro__learn::after {
     width: calc(var(--size)*34);
     height: calc(var(--size)*4.6);
-    font-size: 36px;
+    font-size: calc(var(--size)*2.2);
     font-family: "audiowide";
     background: linear-gradient(45deg, transparent 5%, var(--orange) 5%);
     border: 0;
     color: #fff;
     letter-spacing: 3px;
-    line-height: 68px;
+    line-height: calc(var(--size)*5);
     box-shadow: 6px 0px 0px var(--green);
     outline: transparent;
     position: relative;

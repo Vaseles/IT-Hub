@@ -1,6 +1,12 @@
 @import "blocks/header.css";
 @import "blocks/menu.css";
 @import "blocks/intro.css";
+@import "blocks/content.css";
+@import "blocks/slider.css";
+@import "blocks/interesting.css";
+@import "blocks/news.css";
+@import "blocks/parthner.css";
+@import "blocks/upbutton.css";
 
 * {
     box-sizing: border-box;

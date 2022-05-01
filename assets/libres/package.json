@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "swiper": "^8.1.4",
+    "three": "^0.139.2"
+  }
+}

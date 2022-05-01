@@ -1,0 +1,35 @@
+.interest__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.interest__block {
+    width: calc(var(--size)*18);
+    height: calc(var(--size)*14);
+    /* border: 1px solid aliceblue; */
+    background-color: rgb(254,254, 254,.15);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    margin: 0 1%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.interest__block:hover {
+
+}
+.interest__num {
+    text-align: center;
+    font-size: calc(var(--size)*5);
+    font-weight: 700;
+    background: linear-gradient(45deg, var(--green), var(--orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: calc(var(--size)*5);
+}
+.interest__p {
+    text-align: center;
+}

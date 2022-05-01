@@ -1,0 +1,23 @@
+.up__button {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    padding: 1%;
+    z-index: 10000000;
+    background-color: rgb(254,254,254,.4);
+    color: rgb(32,32,32,.4);
+    transition: all .3s linear;
+    border-radius: 100px;
+
+}
+.up__button:hover {
+    background-color: rgb(254,254,254,1);
+    color: rgb(32,32,32,1);
+}
+.up__button a {
+    background-color: transparent;
+    color: #202020;
+    text-decoration: none;
+    font-size: calc(var(--size)*3);
+    font-weight: bold;
+}

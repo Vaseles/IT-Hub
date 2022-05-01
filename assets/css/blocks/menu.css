@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 .menu__content {
     display: flex;
@@ -39,10 +40,11 @@
     justify-content: start;
     align-items: flex-start;
     flex-direction: column;
-    max-width: 30%;
+    max-width: 34%;
     overflow-y: auto;
     height: 80vh;
     position: relative;
+    overflow-x: hidden;
 }
 .menu__item {
     display: flex;
@@ -69,9 +71,9 @@
 }
 .menu__li {
     text-transform: uppercase;
-    font-size: calc(var(--size)*3.4);
-    padding: 5% 2%;
-    line-height: calc(var(--size)*3.6);
+    font-size: calc(var(--size)*3.2);
+    padding: 5% 1%;
+    line-height: calc(var(--size)*2.8);
     text-decoration: none;
     color: rgb(254,254,254,.7);
     transition: all .7s cubic-bezier(0.165, 0.84, 0.44, 1);
