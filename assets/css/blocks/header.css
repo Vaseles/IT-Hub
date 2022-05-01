@@ -83,3 +83,39 @@ option {
 
     text-shadow: 2px 2px 1px var(--orange);
 }
+
+@media screen and (max-width:660px) {
+    header {
+        height: calc(var(--size)*20);
+        padding: 2% 0;
+    }
+    .header__img {
+        width: calc(var(--size)*9);
+        padding: 1% 0;
+    }
+    select {
+        margin: 0 6px;
+        padding: calc(var(--size)*2) calc(var(--size)*1);
+    }
+    .logo__name {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--white);
+        font-size: calc(var(--size)*3.6);
+        margin: 0px;
+        max-width: calc(var(--size)*34);
+        width: 100%;
+        margin: 0 10px;
+        line-height: calc(var(--size)*2.6);
+    }
+    .header__span {
+        display: block;
+        content: "";
+        width:  calc(var(--size)*10);
+        height: 6px;
+        margin-bottom: 10%;
+    }
+    .header__p {
+        display: none;
+    }
+}
